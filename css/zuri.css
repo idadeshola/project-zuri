@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    font-family: Averta-Regular,monospace;
+    width: 100%;
+    
+    color:#514949;
+    
+    font-weight: lighter;
+    background-image: url(https://zuri.team/img/hero-bg.svg);
+
+}
+
+h3{
+    font-size: 2.3em;
+    margin-bottom:20px;
+    margin-top: 40px;
+}
+h4{
+    font-size: 1.5em;
+}
+
+h5{
+    font-size:0.9em;
+    
+
+}
+p{
+    font-size: 1em;
+    margin-bottom: 20px;
+    
+
+}
+
+.logo{
+    margin-bottom: 150px;
+}
+.content{
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    width:50%;
+}
+.split{
+    display: flex;
+    width: 80%;
+    margin:auto;
+    padding-top:50px;
+    justify-content: space-around;
+}
+.button1 a{ 
+   
+    background-color: #e7332b;
+    border-style:none ;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    
+
+}
+.button2 a{ 
+    
+    border:1px solid  #e7332b;
+
+    padding: 20px;
+    text-decoration: none;
+    color: #e7332b;
+
+}
+.button2 a:hover{ 
+    
+    background-color: #e7332b;
+    border-style:none ;
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
