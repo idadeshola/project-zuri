@@ -24,7 +24,7 @@ h4{
 }
 
 h5{
-    font-size:0.9em;
+    font-size:0.8em;
     
 
 }
@@ -167,7 +167,7 @@ nav{
     align-self:center;
     grid-gap:10px;
     position: relative;
-    animation: mymove 1s;
+    animation: mymove 1.5s;
     animation-fill-mode: forwards;
     
 }
@@ -199,7 +199,7 @@ nav{
 .pictures2{
     align-self:center;
     position: relative;
-    animation: mymove2 1s;
+    animation: mymove2 1.5s;
     animation-fill-mode: forwards;
     
 } 
@@ -214,7 +214,7 @@ nav{
 .pictures2{
     align-self:center;
     position: relative;
-    animation: mymove2 1s;
+    animation: mymove2 1.5s;
     animation-fill-mode: forwards;
     
 } 
@@ -232,7 +232,7 @@ nav{
 .pictures3{
     align-self:center;
     position: relative;
-    animation: mymove3 1s;
+    animation: mymove3 2s;
     animation-fill-mode: forwards;
     
 } 
@@ -277,6 +277,9 @@ nav{
     margin-left:40px;
 
     
+}
+#card-container2 >p{
+    margin-bottom: 10px;
 }
 
 .card-details{
@@ -340,12 +343,12 @@ nav{
     grid-gap:40px;
 }
 #card-container2{
-    width:400px;
+    width:380px;
     height: 250px;
     border:1px solid #b8b8b8;
     border-radius: 5px; 
     margin-left:40px;
-    padding:30px;
+    padding:20px;
     background-color: #ffffff;
 }
 
@@ -356,14 +359,13 @@ nav{
 }
 hr{
   color: #514949;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .split{
     padding:20px;
     margin-left:40px;
     display: flex;
-  
     justify-content: space-between;
   
 }
